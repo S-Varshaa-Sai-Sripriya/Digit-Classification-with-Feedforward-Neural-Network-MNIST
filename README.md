@@ -17,9 +17,22 @@ Feedforward neural network implemented from scratch using NumPy. Trains on the s
 
 ## Dataset
 
-- **Source**: MNIST (70,000 grayscale 28×28 images of handwritten digits 0–9)
-- **Train set**: 60,000 images  
-- **Test set**: 10,000 images  
+### MNIST Digit Dataset
+The MNIST dataset contains images of handwritten digits (0–9), commonly used for image classification tasks.
+
+- **Number of Instances**: 70,000 (60,000 training, 10,000 testing)  
+- **Number of Features**: 784 (28x28 pixels flattened)  
+- **Target Variable**: `Digit` (0–9)
+
+**Feature Details**:
+
+- `Pixel1` to `Pixel784` – Grayscale intensity values (0–255) of each pixel in the 28x28 image.  
+- `Digit` – The actual digit represented by the image.
+
+This dataset is useful for:
+
+- Training classification models (NN, CNN).  
+- Benchmarking image recognition and computer vision algorithms.  
 
 ---
 
